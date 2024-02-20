@@ -1,22 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid;
+        }
+        
+        th {
+            background-color: #4f62e0;
+            color: rgb(0, 0, 0);
+        }
+        
+        tr:nth-child(even) {
+            background-color: #3d3d3d33;
+        }
+        
+        body {
+            background-color: #e4e8e8;
+        }
+    </style>
 </head>
+
 <body>
+    <h2>Membuat Table</h2>
     <table>
-        <tr>
-            <th>No</th>
-            <th>NIM</th>
-            <th>Nama</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>202302028</td>
-            <td>Adi Apriyanto</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Kelas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Adi Apriyanto</td>
+                <td>MI23B</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Azwan Faisal</td>
+                <td>MI23B</td>
+            </tr>
+        </tbody>
     </table>
 </body>
+
 </html>
